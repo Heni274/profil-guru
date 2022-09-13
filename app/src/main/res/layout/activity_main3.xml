@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fotoheni2"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="202dp"
+        android:src="@drawable/fotoheni3" />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KELUARGA PAK AGUS PARIAJI "
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+    </LinearLayout>
